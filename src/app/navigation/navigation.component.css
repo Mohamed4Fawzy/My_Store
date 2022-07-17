@@ -1,0 +1,49 @@
+#nav-container, ul {
+    text-align: center;
+    margin: 0;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.connection {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.75rem;
+}
+
+.login-container {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.login-name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8rem;
+    margin: 0.5rem 0;
+}
+
+.login-name a {
+    font-weight: 700;
+    color: #000;
+    font-size: 0.85rem;
+}

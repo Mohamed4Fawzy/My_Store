@@ -1,0 +1,5 @@
+<div class="order-confirmation-container">
+    <h2>Success!</h2>
+    <p>Thank you, <span class="confirmation-username">{{ order.userdata.fullname }}</span>!</p>
+    <p>Your order with a total of <span class="confirmation-price">{{ total | currency: "EUR" }} </span>is confirmed.</p>
+</div>
